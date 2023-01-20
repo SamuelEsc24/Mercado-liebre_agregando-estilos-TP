@@ -17,6 +17,7 @@
     --descuento: 16px;
     --descripcion: 16px;
 }
+/* GENERAL */
 *{
     box-sizing: border-box;
     margin: 0;
