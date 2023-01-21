@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;400&family=Rowdies&family=Secular+One&family=Teko&display=swap');
-
-:root {
-    /* Variables de colores */
-    --amarillo:#EAC926;
-    --Azul:#03264C;
-    --Celeste:#1259c3;
-    --Gris-oscuro:#666;
-    --Gris-claro:#ebebeb;
-    --Verde:#39b54a;
-    /* Fuentes */
-    --fuente: 'Roboto', sans-serif;
-    /* Tamaños Tipográficos */
-    --parrafos: 12px;
-    --titulos: 24px;
-    --precio: 18px;
-    --descuento: 16px;
-    --descripcion: 16px;
+:root{
+    /* COLORES */
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    /* TIPOGRAFIAs */
+    --Roboto: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+  
+    --cuerpos-de-texto: 12px;
+    --oferta: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
 }
-/* GENERAL */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -29,12 +26,11 @@ body{
 }
 
 /* HEADER */
-
-header div.logo {
+#logo{
     max-width: 350px;
     margin: 30px ;
 }
-header div.busqueda {
+#buscador{
     margin-left: 20px;
 }
 #ul{
@@ -43,7 +39,6 @@ header div.busqueda {
 }
 header{
     background-color: var(--Amarillo);
-    padding: 25px 0;
 }
 header nav ul li a{
     text-decoration: none;
@@ -57,13 +52,15 @@ header nav ul{
     text-align: center;
 }
 
-header div.burger-menu i{
+.burger-menu i{
     background-color: var(--Celeste);
-    border-radius: 5px;
     color: white;
-    width: 15px;
-    padding: 7px;
-    margin: 25px auto 0;
+
+    font-size: 25px;
+    padding: 11px 13px;
+    border-radius: 5px;
+
+    margin: 30px 0;
 }
 
 
